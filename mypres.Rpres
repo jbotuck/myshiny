@@ -1,0 +1,35 @@
+The "Do You Get Enough Sleep App"
+========================================================
+author: Jacob
+date: 10/14/14
+
+
+Sleep is important
+========================================================
+
+Sufficient sleep is increasingly being recognized as an essential aspect of chronic disease prevention and health promotion
+
+
+Sleep requirements change with age
+========================================================
+
+```{r, echo = FALSE}
+require("ggplot2")
+lev <- c("Newborn", "Preschool aged", "School aged", "Teen", "Adult")
+age <- factor(lev, levels = lev, ordered = TRUE)
+hours_of_sleep_needed <- c(16, 11, 10, 9, 7)
+qplot(age, hours_of_sleep_needed, geom = "bar", stat = "identity")
+```
+
+The App
+========================================================
+
+* Using the do you get enough sleep app, users can enter in their age and the amount of hours of sleep they get.
+* The app tells them if they are getting enough sleep.
+* People who are not getting enough sleep can adjust their lifestyle to accomodate more healthy sleep habits
+* This app will save lives!
+
+The End
+===============================================
+
+# Any Questions?
